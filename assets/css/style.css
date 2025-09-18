@@ -1,9 +1,19 @@
-/* #3a2620
+/*
+#3a2620
 #aa9581
 #416a8e
 #7a9fc2
 #ffffff
 #000000
-Heading - Macondo
-Body - Inter
 */
+
+/* Google Fonts Import*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-family: "Macondo", cursive;
+}
