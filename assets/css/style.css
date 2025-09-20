@@ -1,16 +1,17 @@
-/* Google Fonts Import*/
+/* Google fonts import */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap");
 
 /* CSS Variables */
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #3a2620;
-    --secondary-color: #aa9581;
-    --highlight-color: #416abe;
-    --highlight-color-light: #7a9fc2;
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
 }
 
+/* Global styles */
 body {
     font-family: var(--primary-font);
 }
@@ -33,6 +34,11 @@ h2 {
 
 .sub-heading-color {
     color: var(--highlight-color);
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* Buttons */
@@ -68,11 +74,6 @@ h2 {
     width: 30px;
 }
 
-.section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
 /* Header */
 #header .lead {
     font-family: var(--secondary-font);
@@ -82,17 +83,29 @@ h2 {
 #services .card-footer {
     font-weight: bold;
     color: var(--highlight-color);
-    background: transparent;
+    background-color: transparent;
 }
 
 #services .card {
     margin-bottom: 1.5rem;
 }
 
-#new-games .card {
-    margin-bottom: 1.5rem;
+/* Events */
+#events .table {
+    font-size: 0.7rem;
 }
 
+.student-discount {
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    color: white;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
+/* Game library cards */
 #new-games .card,
 #fav-games .card {
     border: none;
@@ -122,16 +135,17 @@ h2 {
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
 }
 
 #contact .social-links i:hover {
     color: var(--secondary-color);
-    transition: color 0.3s ease-in-out;
 }
 
 #contact .table-dark * {
     background-color: transparent;
 }
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -141,35 +155,43 @@ h2 {
 
 .col-12 {
     border: 2px solid white;
-    background-color: lightgrey;
+    background-color: lightgray;
 } */
 
 /* Media queries */
+/* Small screens and up */
+@media screen and (min-width: 576px) {
+    #events .table {
+        font-size: 1rem;
+    }
+    .student-discount {
+        font-size: 1rem;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-    /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
     }
 }
 
+/* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
-    /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: auto;
     }
 }
 
+/* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-    /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 220px;
     }
 }
 
+/* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
-    /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
     }
