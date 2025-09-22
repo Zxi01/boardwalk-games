@@ -1,0 +1,6 @@
+2025-09-22 09:50:57.064 [error] Error: Error mutex already exists
+    at Nu.S (file:///D:/Microsoft%20VS%20Code/resources/app/out/main.js:128:18399)
+2025-09-22 09:50:57.076 [info] update#setState idle
+2025-09-22 09:51:27.082 [info] update#setState checking for updates
+2025-09-22 09:51:27.174 [info] update#setState idle
+2025-09-22 09:52:52.255 [info] Extension host with pid 21544 exited with code: 0, signal: unknown.

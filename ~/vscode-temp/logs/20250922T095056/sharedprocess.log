@@ -1,0 +1,24 @@
+2025-09-22 09:50:59.141 [info] Marked extension as removed alefragnani.bookmarks-13.5.0
+2025-09-22 09:50:59.141 [info] Marked extension as removed batisteo.vscode-django-1.15.0
+2025-09-22 09:50:59.141 [info] Marked extension as removed esbenp.prettier-vscode-11.0.0
+2025-09-22 09:50:59.141 [info] Marked extension as removed eventyret.bootstrap-4-cdn-snippet-1.13.0
+2025-09-22 09:50:59.141 [info] Marked extension as removed github.copilot-1.372.0
+2025-09-22 09:50:59.141 [info] Marked extension as removed github.copilot-chat-0.31.1
+2025-09-22 09:50:59.142 [info] Marked extension as removed hossaini.bootstrap-intellisense-3.0.4
+2025-09-22 09:50:59.142 [info] Marked extension as removed ms-python.autopep8-2025.2.0
+2025-09-22 09:50:59.142 [info] Marked extension as removed ms-python.debugpy-2025.10.0-win32-x64
+2025-09-22 09:50:59.142 [info] Marked extension as removed ms-python.flake8-2025.2.0
+2025-09-22 09:50:59.142 [info] Marked extension as removed ms-python.python-2025.14.0-win32-x64
+2025-09-22 09:50:59.143 [info] Marked extension as removed ms-python.vscode-pylance-2025.8.2
+2025-09-22 09:50:59.143 [info] Marked extension as removed ms-vscode.live-server-0.4.16
+2025-09-22 09:50:59.143 [info] Marked extension as removed ms-vsliveshare.vsliveshare-1.0.5959
+2025-09-22 09:50:59.143 [info] Marked extension as removed ritwickdey.liveserver-5.7.9
+2025-09-22 09:50:59.143 [info] Marked extension as removed vscode-icons-team.vscode-icons-12.14.0
+2025-09-22 09:51:11.966 [info] Getting Manifest... github.copilot-chat
+2025-09-22 09:51:12.078 [info] Installing extension: github.copilot-chat {"enable":true,"isApplicationScoped":true,"isMachineScoped":false,"installEverywhere":true,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/User/.vscode/extensions/extensions.json","path":"/c:/Users/User/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"productVersion":{"version":"1.104.1","date":"2025-09-17T23:36:24.973Z"}}
+2025-09-22 09:51:12.270 [info] Getting Manifest... github.copilot
+2025-09-22 09:51:12.295 [info] Installing extension: github.copilot {"enable":true,"isApplicationScoped":true,"isMachineScoped":false,"installEverywhere":true,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/User/.vscode/extensions/extensions.json","path":"/c:/Users/User/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"productVersion":{"version":"1.104.1","date":"2025-09-17T23:36:24.973Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-09-22 09:51:12.300 [info] Removed the extension from removed list: github.copilot-chat
+2025-09-22 09:51:12.310 [info] Removed the extension from removed list: github.copilot
+2025-09-22 09:51:12.360 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/c%3A/Users/User/.vscode/extensions/extensions.json
+2025-09-22 09:51:12.360 [info] Extension installed successfully: github.copilot vscode-userdata:/c%3A/Users/User/.vscode/extensions/extensions.json
